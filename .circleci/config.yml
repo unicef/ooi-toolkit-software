@@ -26,7 +26,7 @@ workflows:
 jobs:
   deploy:
     docker:
-      - image: cimg/base:latest
+      - image: cimg/base:stable
     working_directory: ~/hugo
     environment:
       HUGO_BUILD_DIR: ~/hugo/ooi-toolkit-software/public
