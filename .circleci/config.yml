@@ -1,0 +1,52 @@
+---
+# https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+
+orbs:
+  hugo: circleci/hugo@1.2.2
+
+workflows:
+  main:
+    jobs:
+      - hugo/build:
+          asciidoc: true
+          html-proofer: true
+          htmlproofer-http-status-ignore: "'0,999'"
+          htmlproofer-url-ignore: "'/ooi-toolkit-software/'"
+          htmlproofer-timeframe: "'6w'"
+          hugo-extra-flags: "--minify"
+          version: "latest"
+      - deploy:
+          filters:
+            branches:
+              only: main
+          requires:
+            - hugo/build
+
+jobs:
+  deploy:
+    docker:
+      - image: cimg/base:latest
+    working_directory: ~/hugo
+    environment:
+      HUGO_BUILD_DIR: ~/hugo/ooi-toolkit-software/public
+    steps:
+      # add repository deploy key (for pull/push access)
+      - add_ssh_keys:
+          fingerprints:
+            - "55:7d:00:85:98:46:69:1f:1b:25:90:f3:f8:56:cc:02"
+
+      # deploy.sh dependencies
+      - run: sudo apt-get update && sudo apt-get install -y rsync
+
+      # clone repo (required to access `.circleci/deploy.sh`)
+      - run: git clone --depth=1 https://github.com/unicef/ooi-toolkit-software.git
+
+      # checkout generated html
+      - attach_workspace:
+          at: ooi-toolkit-software
+
+      # deploy to production
+      - deploy:
+          name: Deploy to GitHub Pages
+          command: ./ooi-toolkit-software/.circleci/deploy.sh

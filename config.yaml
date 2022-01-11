@@ -1,0 +1,166 @@
+---
+###############################################################################
+#                                                                             #
+#                            WEBSITE CONFIGURATION                            #
+#                                                                             #
+###############################################################################
+
+
+# --- base website settings ---
+
+baseURL: https://unicef.github.io/ooi-toolkit-software/
+title: UNICEF Software Development Toolkit
+theme: inventory
+languageCode: en-us
+enableEmoji: true
+enableGitInfo: true
+
+# Optional: Add Google Analytics tracking support.
+googleAnalytics: ""
+
+
+# --- markup settings ---
+
+markup:
+  asciidocExt:
+    preserveTOC: true
+    sectionNumbers: true
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: murphy
+    tabWidth: 4
+
+
+# --- privacy settings ---
+
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+  twitter:
+    enableDNT: true
+  vimeo:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+
+
+# --- navigation menu ---
+
+menu:
+  main:
+    - name: FAQ
+      weight: 10
+      url: faq
+
+    - name: pages
+      weight: 20
+      url: pages
+      hasChildren: true
+
+    # Sub-pages in this drop-down should correspond to categories created in /content/
+    # - name: Blockchain 2021
+    #   parent: pages
+    #   weight: 10
+    #   url: blockchain-2021
+
+
+# --- custom settings ---
+
+params:
+  logo: "images/unicef-logo.png"
+
+  # OpenGraph data
+  description: A toolkit for software development best practices, created for the UNICEF Venture Fund in the Office of Innovation.
+  author: Iván Perdomo, UNICEF Office of Innovation, and others
+  # find a royalty-free image from unsplash.com
+  image: "images/opengraph.png"
+
+  # customize color
+  primary_color: "#1CABE2"
+  body_color: "#D8D1C9"
+  text_color: "#777779"
+  text_color_dark: "#374EA2"
+  text_title_color: "#ffffff"
+  white_color: "#ffffff"
+  light_color: "#f8f9fa"
+
+  # font family (choose from https://fonts.google.com/)
+  font_family: "Open+Sans"
+
+  # contact form action (works with https://formspree.io)
+  contact_form_action: "#"
+
+  # related article number limit
+  article_count: 3
+
+  # brand and identity information
+  brand:
+    parent_org_name: UNICEF Global
+    parent_org_url: https://www.unicef.org/
+    parent_org_url_legal: https://www.unicef.org/legal
+  footer:
+    mainSite: https://www.unicefinnovationfund.org/
+    mainSiteName: UNICEF Innovation Fund
+    description: A toolkit for software development best practices, created for the UNICEF Venture Fund in the Office of Innovation.
+
+
+# --- social platform settings ---
+# themify icon pack : https://themify.me/themify-icons
+
+  social:
+    - icon: ti-github
+      name: UNICEF Software Development Toolkit on GitHub
+      link: https://github.com/unicef/ooi-toolkit-software
+    - icon: ti-twitter
+      name: "@UNICEFinnovate on Twitter"
+      link: https://twitter.com/UNICEFinnovate
+
+
+# --- taxonomy settings ---
+taxonomies:
+  alert: alerts
+  category: categories
+  downloadable: downloadBtn
+
+
+# --- multilingual settings ---
+
+Languages:
+############################# English #############################
+  en:
+    languageName: en
+    languageCode: en-us
+    weight: 1
+    home: Home
+    copyright: Creative Commons BY-SA 4.0. Site theme adapted from UNICEF Inventory theme.
+    params:
+      banner:
+        title: UNICEF Software Development Toolkit
+        subtitle: A toolkit for software development best practices, created for the UNICEF Venture Fund in the Office of Innovation.
+        bg_image: images/banner.jpg
+        placeholder: Have a question? Search the site here.
+############################# Español / Spanish #############################
+  # es:
+  #   languageName: es
+  #   languageCode: es-mx
+  #   weight: 2
+  #   home: Página principal
+  #   copyright: Creative Commons BY-SA 4.0.
+  #   params:
+  #     banner:
+  #       title: "Inventario de Open Source de UNICEF"
+  #       subtitle: "Una base de conocimientos de innovación mundial del UNICEF sobre mejores prácticas y recursos para trabajar y dirigir Open."
+  #       bg_image: images/banner.jpg
+  #       placeholder: ¿Tienes una pregunta? Busque en el sitio aquí.
