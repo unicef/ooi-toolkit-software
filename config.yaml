@@ -18,6 +18,12 @@ enableGitInfo: true
 # Optional: Add Google Analytics tracking support.
 googleAnalytics: ""
 
+# New in hugo 0.91.0
+# https://github.com/gohugoio/hugo/releases/tag/v0.91.0
+
+security:
+  exec:
+    allow: ["asciidoctor"]
 
 # --- markup settings ---
 
