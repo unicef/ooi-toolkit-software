@@ -1,0 +1,14 @@
+---
+title: "Technical Capabilities"
+date: 2022-01-25T18:53:17+01:00
+draft: false
+---
+
+* Version Control
+* Trunk-based Development
+* Continuous Integration
+* Test Automation
+* Architecture
+* Monitoring
+* Proactive Notifications
+* Documentation

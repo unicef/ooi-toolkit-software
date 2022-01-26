@@ -1,0 +1,6 @@
+---
+title: "Trunk Based Development"
+date: 2022-01-25T18:55:23+01:00
+draft: true
+---
+
