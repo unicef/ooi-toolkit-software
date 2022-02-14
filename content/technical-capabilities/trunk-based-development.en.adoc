@@ -1,6 +1,33 @@
 ---
 title: "Trunk Based Development"
 date: 2022-01-25T18:55:23+01:00
-draft: true
+draft: false
+weight: 40
 ---
 
+Back in 2010 a branching model named
+link:https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow[Gitflow,window=_blank]
+was introduced by Vincent Driessen, where the team used 2 different branches `master`/`main` and
+`develop` with several release branches and tags. It was presented as a successful branching
+strategy. 12 years later and hundreds of teams attempting to follow it is now considered too complex
+to follow.
+
+In trunk-based development the developer takes a small batch of work, creates a branch from `main` and
+merges the changes as early as possible.
+
+[NOTE]
+====
+Long-lived branches are the source of integration problems and complexity
+====
+
+The _scope of work_ is the main difference between using long-lived feature branches and trunk-based
+development.
+
+There is an implicit prerequisite that the main branch must always be in a _deployable_ state.
+
+image::/ooi-toolkit-software/images/trunk-based-development.svg[]
+
+[.small]#CC-BY 4.0#.footnote:[[.small]#Portions of this page are reproduced from work created and
+https://developers.google.com/readme/policies[shared by Google] and used according to terms
+described in the https://creativecommons.org/licenses/by/4.0/[Creative Commons 4.0 Attribution
+License]. https://cloud.google.com/architecture/devops/devops-tech-trunk-based-development[Source,window=_blank]#]
