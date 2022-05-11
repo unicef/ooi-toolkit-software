@@ -66,10 +66,26 @@ privacy:
 
 menu:
   main:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     - name: FAQ
       weight: 10
       url: faq
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    - name: Data Science & A.I.
+      parent: Toolkits
+      url: https://unicef.github.io/ooi-toolkit-ds/
+      weight: 10
 
+    - name: Drones
+      parent: Toolkits
+      url: https://unicef.github.io/drone-4sdgtoolkit/
+      weight: 20
+
+    - name: Open Source
+      parent: Toolkits
+      url: https://unicef.github.io/inventory/
+      weight: 30
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     - name: pages
       weight: 20
       url: pages
