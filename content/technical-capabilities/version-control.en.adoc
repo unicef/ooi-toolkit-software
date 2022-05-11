@@ -1,7 +1,6 @@
 ---
 title: "Version Control"
 date: 2022-01-25T18:55:11+01:00
-draft: true
 weight: 10
 ---
 
