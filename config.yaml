@@ -118,7 +118,7 @@ params:
     parent_org_url_legal: https://www.unicef.org/legal
   footer:
     mainSite: https://www.unicefinnovationfund.org/
-    mainSiteName: UNICEF Innovation Fund
+    mainSiteName: UNICEF Venture Fund
     description: A toolkit for software development best practices, created for the UNICEF Venture Fund in the Office of Innovation.
 
 
