@@ -15,7 +15,7 @@ A toolkit for software development best practices, created for the UNICEF Ventur
 ## :information_source: About
 
 This repository is a collection of various software development best practices.
-It was originally created to support [UNICEF Innovation Fund](https://unicefinnovationfund.org/) teams in building software and technology projects.
+It was originally created to support [UNICEF Venture Fund](https://unicefinnovationfund.org/) teams in building software and technology projects.
 The information here can also be applied generally to projects seeking to comply with the [Digital Public Goods Standard](https://digitalpublicgoods.net/standard/).
 
 
