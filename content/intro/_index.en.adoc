@@ -17,7 +17,7 @@ technical aspects of indicator number 4: *"Platform Independence"*.
 We have 2 clear goals:
 
 1. Improve the product development process
-2. DPG Indicator No. 4 "Platform Independence"
+2. DPG Indicator No. 4: link:++{{< relref "platform-independence" >}}++[Platform Independence]
 
 == Introducing DevOps Research and Assessment (DORA)
 
