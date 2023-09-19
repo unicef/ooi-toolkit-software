@@ -1,6 +1,0 @@
----
-title: "Architecture"
-date: 2022-01-25T18:55:58+01:00
-draft: false
-weight: 50
----

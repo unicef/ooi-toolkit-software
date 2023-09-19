@@ -23,7 +23,7 @@ googleAnalytics: ""
 
 security:
   exec:
-    allow: ["asciidoctor"]
+    allow: ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$", "^asciidoctor$"]
 
 # --- markup settings ---
 
