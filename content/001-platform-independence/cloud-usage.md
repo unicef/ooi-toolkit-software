@@ -5,8 +5,6 @@ description: "The use of cloud services and platform independence"
 type: "docs"
 ---
 
-# Cloud usage
-
 > Can we use cloud services?
 
 Nothing in the [DPG standard](https://digitalpublicgoods.net/standard/) suggests that you can't use
