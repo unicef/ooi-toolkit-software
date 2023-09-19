@@ -7,7 +7,7 @@
 -->
 
 [![License: CC BY-SA 4.0][license-shield]][license-legal]
-[![Build Status](https://circleci.com/gh/unicef/ooi-toolkit-software/tree/main.svg?style=shield)](https://app.circleci.com/pipelines/github/unicef/ooi-toolkit-software?branch=main)
+![Build status](https://github.com/unicef/ooi-toolkit-software/actions/workflows/main.yml/badge.svg?branch=main)
 
 A toolkit for software development best practices, created for the UNICEF Venture Fund in the Office of Innovation.
 
