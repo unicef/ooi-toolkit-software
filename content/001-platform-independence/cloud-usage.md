@@ -29,10 +29,9 @@ operation, hosting, backup to your cloud provider.
 
 | Open Source | Cloud offering                                                                                                 |
 |-------------|----------------------------------------------------------------------------------------------------------------|
-| PostgreSQL  | AWS[^aws] RDS, GCP[^gcp] Cloud SQL, Azure Database for PostgreSQL, Scaleway Managed Database for PostgreSQL    |
+| PostgreSQL  | AWS[^aws] RDS, GCP[^gcp] Cloud SQL, Azure Database for PostgreSQL, Scaleway Managed Database for PostgreSQL                |
 | MySQL       | AWS RDS, GCP Cloud SQL, Azure Database for MySQL, Scaleway Managed Database for MySQL                          |
 | Redis       | AWS ElastiCache, GCP Memorystore, Azure Cache for Redis, Scaleway Managed Database for Redis™                  |
-
 
 The above table serve as example, the _Venture Fund_ does not endorse any particular Cloud vendor.
 
@@ -54,10 +53,9 @@ Search](https://www.elastic.co/pricing/faq/licensing) and
 platform independent.
 
 
-### Application server
-
 #### Notes
-* [^aws] Amazon Web Services
-* [^gcp] Google Cloud Platform
-* [^bsl] [BSL FAQ](https://mariadb.com/bsl-faq-mariadb/)
-* [^mariadb] There is a GPL version of MariaDB
+
+[^aws]: Amazon Web Services
+[^gcp]: Google Cloud Platform
+[^bsl]: [BSL FAQ](https://mariadb.com/bsl-faq-mariadb/)
+[^mariadb]: There is a GPL version of MariaDB
