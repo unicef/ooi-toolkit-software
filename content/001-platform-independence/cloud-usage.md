@@ -23,7 +23,7 @@ An easier approach to comply with the DPG standard is to:
 
 Most applications need to persist data in order to query it at a later time, and most applications
 use a database for this purpose. Depending on your system, a relational (RBMS) or a _NoSQL_
-datastore will best serve your needs. Either way, you can use open source systems and deletage the
+datastore will best serve your needs. Either way, you can use open source systems and delegate the
 operation, hosting, backup to your cloud provider.
 
 
@@ -36,7 +36,7 @@ operation, hosting, backup to your cloud provider.
 
 The above table serve as example, the _Venture Fund_ does not endorse any particular Cloud vendor.
 
-> Avoid using a propietary database (e.g. Microsoft SQL Server, Oracle Database) will make your
+> Avoid using a proprietary database (e.g. Microsoft SQL Server, Oracle Database) will make your
 > application not platform independent
 
 #### Business Source License (BSL) and Server Side Public License (SSPL)

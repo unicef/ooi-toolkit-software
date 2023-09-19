@@ -60,7 +60,7 @@ API calls without major code changes.
 ## Use Open Source components, delegate the hosting and maintenance
 
 A strategy to achieve Platform Independence easily, is to always use open source components and
-delegate the hosting/maintanance of those components/services to your hosting provider.
+delegate the hosting/maintenance of those components/services to your hosting provider.
 
 As example, you can use PostgreSQL database for your data and any of the major cloud providers for
 hosting it: AWS RDS, GCP Cloud SQL, Azure Database for PostgreSQL.
