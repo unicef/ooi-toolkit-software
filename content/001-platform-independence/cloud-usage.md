@@ -1,6 +1,6 @@
 ---
 title: "Cloud usage"
-icon: "ti-server"
+icon: "ti-cloud"
 description: "The use of cloud services and platform independence"
 type: "docs"
 ---
