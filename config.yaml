@@ -71,7 +71,7 @@ menu:
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     - name: FAQ
       weight: 10
-      url: faq
+      url: faq/
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     - name: Data Science & A.I.
       parent: Toolkits
@@ -88,10 +88,10 @@ menu:
       url: https://unicef.github.io/inventory/
       weight: 30
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-    - name: pages
-      weight: 20
-      url: pages
-      hasChildren: true
+    # - name: pages
+    #   weight: 20
+    #   url: pages
+    #   hasChildren: true
 
     # Sub-pages in this drop-down should correspond to categories created in /content/
     # - name: Blockchain 2021
