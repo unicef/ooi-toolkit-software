@@ -1,6 +1,6 @@
 ---
 title: "FAQ"
-icon: "ti-notepad"
+icon: "ti-comments-smiley"
 description: "Frequently Asked Questions"
 type: "docs"
 ---
