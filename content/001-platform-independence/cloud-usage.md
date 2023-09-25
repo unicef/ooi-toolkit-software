@@ -36,24 +36,24 @@ The above table serve as example, the _Venture Fund_ does not endorse any partic
 > Avoid using a proprietary database (e.g. Microsoft SQL Server, Oracle Database) will make your
 > application not platform independent
 
-#### Business Source License (BSL) and Server Side Public License (SSPL)
+### Alternative to non open source components
 
-The _Business Source License_ [BSL](https://mariadb.com/bsl11/), and _Server Side Public License_
-[SSPL](https://en.wikipedia.org/wiki/Server_Side_Public_License) are recent _"source available"_
-licenses that are not [OSI](https://opensource.org/osd) approved.
-
-The main idea of users of this licenses, is to try to block the commercial hosting of their software
-by other companies[^bsl].
-
-Using a database like MariaDB Enterprise[^mariadb] released under BSL 1.1 or [Elastic
-Search](https://www.elastic.co/pricing/faq/licensing) and
-[MongoDB](https://www.mongodb.com/community/licensing) under SSPL, will make your system not
-platform independent.
+| Component                    | Open Source alternative                                                                                             |
+|------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Confluent Kakfa              | [Apache Kakfa](https://kafka.apache.org/)                                                                           |
+| Elastic Search               | [OpenSearch](https://opensearch.org/)                                                                               |
+| MongoDB                      | [FerretDB](https://www.ferretdb.io/)                                                                                |
+| Mapbox                       | [Leaftlet](https://leafletjs.com/)                                                                                  |
+| Google Maps                  | [Leaftlet](https://leafletjs.com/)                                                                                  |
 
 
-#### Notes
+| Service                      | Open source                                                                                                         |
+|------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Auth0                        | OpenID Connect based authentication ([Keycloak](https://www.keycloak.org/), [Ory](https://www.ory.sh/open-source/)) |
+| Firebase                     | [Supabase](https://supabase.com/docs/guides/self-hosting), [Etebase](https://www.etebase.com/)                      |
+| Google Cloud Messaging (GCM) | [UnifiedPush](https://unifiedpush.org/)                                                                             |
+
+##### Notes
 
 [^aws]: Amazon Web Services
 [^gcp]: Google Cloud Platform
-[^bsl]: [BSL FAQ](https://mariadb.com/bsl-faq-mariadb/)
-[^mariadb]: There is a GPL version of MariaDB

@@ -57,6 +57,21 @@ others.
 If your application uses AWS S3, you can claim that there are open alternatives that support those
 API calls without major code changes.
 
+### Business Source License (BUSL) and Server Side Public License (SSPL)
+
+The _Business Source License_ [BUSL](https://mariadb.com/bsl11/), and _Server Side Public License_
+[SSPL](https://en.wikipedia.org/wiki/Server_Side_Public_License) are recent _"source available"_
+licenses that are not [OSI](https://opensource.org/osd) approved.
+
+The main idea of users of this licenses, is to try to block the commercial hosting of their software
+by other companies[^bsl].
+
+Using a database like MariaDB Enterprise[^mariadb] released under BSL 1.1 or [Elastic
+Search](https://www.elastic.co/pricing/faq/licensing) and
+[MongoDB](https://www.mongodb.com/community/licensing) under SSPL, will make your system not
+platform independent.
+
+
 ## Use Open Source components, delegate the hosting and maintenance
 
 A strategy to achieve Platform Independence easily, is to always use open source components and
@@ -68,5 +83,9 @@ hosting it: AWS RDS, GCP Cloud SQL, Azure Database for PostgreSQL.
 If you are using a MERN[^mern] stack, your database can be hosted in AWS DocumentDB, MongoDB Atlas
 in GCP, Azure Cosmos DB for MongoDB.
 
+##### Notes
 
+
+[^bsl]: [BSL FAQ](https://mariadb.com/bsl-faq-mariadb/)
+[^mariadb]: There is a GPL version of MariaDB
 [^mern]: **M**ongoDB, **E**xpress.js, **R**eact.js, **N**ode.js
