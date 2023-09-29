@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1056px" height="452px" viewBox="0 0 1056 452" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Diagram 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Diagram-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1056" height="452"/>
+        <rect id="Rectangle" stroke="#E0E0E0" x="702.5" y="40.5" width="238" height="107" rx="4"/>
+        <text id="Release" font-family="GoogleSans-Regular, Google Sans" font-size="11" font-weight="normal" fill="#3C4043">
+            <tspan x="800.305" y="118">Release </tspan>
+        </text>
+        <text id="Deployable" font-family="GoogleSans-Regular, Google Sans" font-size="11" font-weight="normal" fill="#3C4043">
+            <tspan x="800.483" y="71">Deployable </tspan>
+        </text>
+        <circle id="Oval-2-Copy" fill="#90CAF9" cx="749" cy="112" r="19"/>
+        <text id="R" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#FFFFFF">
+            <tspan x="744" y="118">R</tspan>
+        </text>
+        <path d="M471.874439,264.177873 L444,320.205187" id="Line-2" stroke="#9CADB5" stroke-width="2" stroke-linecap="square" stroke-dasharray="4.199999809265137,7.559999942779541"/>
+        <path d="M290,175 L323.5,315.5" id="Line-2" stroke="#9CADB5" stroke-width="2" stroke-linecap="square" stroke-dasharray="4.199999809265137,7.559999942779541"/>
+        <g id="arrow" transform="translate(524.000000, 323.500000) scale(-1, 1) rotate(-180.000000) translate(-524.000000, -323.500000) translate(122.000000, 313.000000)" stroke="#9CADB5" stroke-linecap="square" stroke-width="6">
+            <path d="M0.251611871,10.5 L803.446162,10.5" id="Line"/>
+        </g>
+        <path d="M195.77604,318 L195.77604,318 L195.77604,257.408003 L195.77604,192.526126 C195.77604,181.91415 204.335322,173.288575 214.946983,173.206701 L221,173.16 L559,173.354613 L561.46,173.16" id="Line" stroke="#9CADB5" stroke-width="6" stroke-linecap="square" stroke-dasharray="0.84"/>
+        <path d="M388.77604,320.5 L388.77604,320.5 L388.77604,277.855178 C388.77604,267.229536 397.356568,258.598221 407.982025,258.535515 L414,258.5 L635.357284,258.648858 L649,258.66" id="Line" stroke="#9CADB5" stroke-width="6" stroke-linecap="square" stroke-dasharray="0.84"/>
+        <text id="Release-1.0.x" font-family="GoogleSans-Regular, Google Sans" font-size="12" font-weight="normal" fill="#3C4043">
+            <tspan x="436.74" y="160">Release 1.0.x</tspan>
+        </text>
+        <text id="Merge-bugfix" font-family="GoogleSans-Regular, Google Sans" font-size="12" font-weight="normal" fill="#3C4043">
+            <tspan x="326.716" y="230">Merge</tspan>
+            <tspan x="327.454" y="246">bugfix</tspan>
+        </text>
+        <text id="Merge-bugfix" font-family="GoogleSans-Regular, Google Sans" font-size="12" font-weight="normal" fill="#3C4043">
+            <tspan x="465.716" y="296">Merge</tspan>
+            <tspan x="466.454" y="312">bugfix</tspan>
+        </text>
+        <text id="Release-1.1.x" font-family="GoogleSans-Regular, Google Sans" font-size="12" font-weight="normal" fill="#3C4043">
+            <tspan x="536.33" y="246">Release 1.1.x</tspan>
+        </text>
+        <text id="Trunk-(dev" font-family="GoogleSans-Regular, Google Sans" font-size="12" font-weight="normal" fill="#3C4043">
+            <tspan x="222.894" y="353">Trunk (developers are allowed to push their changes directly here but must fix problems immediately)</tspan>
+        </text>
+        <path d="M322.412415,299.513027 L322.412415,318.833027 L322.412415,299.513027 Z" id="Path-5" fill="#AFBDC4" transform="translate(322.412415, 309.173027) rotate(77.000000) translate(-322.412415, -309.173027) "/>
+        <polygon id="Path-5" fill="#9CADB5" transform="translate(323.418204, 315.766287) rotate(77.000000) translate(-323.418204, -315.766287) " points="326.652704 315.818642 320.183704 310.04371 320.183704 321.488864"/>
+        <path d="M378.5,176 L417.2345,315.5" id="Line-2" stroke="#9CADB5" stroke-width="2" stroke-linecap="square" stroke-dasharray="4.199999809265137,7.559999942779541"/>
+        <path d="M522,314 L483,256" id="Line-2" stroke="#9CADB5" stroke-width="2" stroke-linecap="square" stroke-dasharray="4.199999809265137,7.559999942779541"/>
+        <polygon id="Path-5" fill="#9CADB5" transform="translate(417.234500, 316.722577) rotate(75.000000) translate(-417.234500, -316.722577) " points="420.469 316.774932 414 311 414 322.445154"/>
+        <polygon id="Path-5" fill="#9CADB5" transform="translate(472.234500, 264.722577) rotate(-64.000000) translate(-472.234500, -264.722577) " points="475.469 264.774932 469 259 469 270.445154"/>
+        <polygon id="Path-5" fill="#9CADB5" transform="translate(524.234500, 316.722577) rotate(57.000000) translate(-524.234500, -316.722577) " points="527.469 316.774932 521 311 521 322.445154"/>
+        <g id="Group-3" transform="translate(236.000000, 154.000000)">
+            <circle id="Oval-2-Copy" fill="#90CAF9" cx="19" cy="19" r="19"/>
+            <text id="R" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#FFFFFF">
+                <tspan x="14" y="25">R</tspan>
+            </text>
+        </g>
+        <circle id="Oval-2-Copy" fill="#90CAF9" cx="335" cy="173" r="19"/>
+        <text id="R" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#FFFFFF">
+            <tspan x="330" y="179">R</tspan>
+        </text>
+        <g id="Group-5" transform="translate(417.000000, 239.000000)">
+            <circle id="Oval-2-Copy" fill="#90CAF9" cx="19" cy="19" r="19"/>
+            <text id="R" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#FFFFFF">
+                <tspan x="14" y="25">R</tspan>
+            </text>
+        </g>
+        <polygon id="Path-5" fill="#9CADB5" points="570 173.586914 559 164 559 183"/>
+        <polygon id="Path-5" fill="#9CADB5" points="660 258.586914 649 249 649 268"/>
+        <polygon id="Path-5" fill="#9CADB5" points="933 323.586914 922 314 922 333"/>
+        <path d="M727,66 L771.262295,66" id="Line-3" stroke="#9CADB5" stroke-width="6" stroke-linecap="square" stroke-dasharray="0.84"/>
+    </g>
+</svg>
