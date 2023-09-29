@@ -41,7 +41,6 @@ to use AWS Lambda to react to new files in AWS S3.
 If you architect your solution around the proprietary services of a particular Cloud vendor, your
 solution is not _Platform Independent_.
 
-
 #### AWS Simple Storage Service (S3) - An exception
 
 Amazon Simple Storage Service (S3) is a proprietary service by Amazon Web Services (AWS), it was
@@ -56,6 +55,22 @@ others.
 
 If your application uses AWS S3, you can claim that there are open alternatives that support those
 API calls without major code changes.
+
+#### Large Language Models (LLMs)
+
+Most projects release their models (weights) under a non-OSI approved licenses, e.g. just for
+academic purposes or preventing any commercial activity. Other expose their models via a closed
+source and propietary API.
+
+If your project depends directly on any of this components or services, your project is **not**
+platform independent.
+
+| Component/Service | Open Source | Platform Independent | Notes                    |
+|-------------------|-------------|----------------------|--------------------------|
+| Open AI ChatGPT   | No          | No                   | Commercial               |
+| Facebook LLAMA2   | No          | No                   | Custom Community license |
+|                   |             |                      |                          |
+
 
 ### Business Source License (BUSL) and Server Side Public License (SSPL)
 
@@ -84,7 +99,6 @@ If you are using a MERN[^mern] stack, your database can be hosted in AWS Documen
 in GCP, Azure Cosmos DB for MongoDB.
 
 ##### Notes
-
 
 [^bsl]: [BSL FAQ](https://mariadb.com/bsl-faq-mariadb/)
 [^mariadb]: There is a GPL version of MariaDB
